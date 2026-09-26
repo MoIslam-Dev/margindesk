@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MarginDesk">
+  <rect width="64" height="64" rx="14" fill="#2f6f4f" />
+  <path
+    d="M16 44V20h7.2l8.8 13.2L40.8 20H48v24h-6.4V30.8L33.6 43h-3.2L22.4 30.8V44z"
+    fill="#ffffff"
+  />
+  <circle cx="48" cy="46" r="5" fill="#8fd6b0" />
+</svg>

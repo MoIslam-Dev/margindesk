@@ -1,0 +1,17 @@
+# Dependencies (MarginDesk has none — this folder is here for editors and future use)
+node_modules/
+
+# Local exports / backups produced by Settings → Export
+exports/
+*.json.bak
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

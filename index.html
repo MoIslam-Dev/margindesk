@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MarginDesk — quotes &amp; project profitability</title>
+    <meta
+      name="description"
+      content="Quote builder and project profitability tracker for freelancers and small studios. Your data stays on your own computer."
+    />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand__mark" id="brandMark">M</div>
+          <div>
+            <div class="brand__name" id="brandName">MarginDesk</div>
+            <div class="brand__sub" id="brandSub">Quotes &amp; profitability</div>
+          </div>
+        </div>
+        <nav class="nav" id="nav" aria-label="Main"></nav>
+        <div class="sidebar__foot" id="sidebarFoot"></div>
+      </aside>
+
+      <div class="main">
+        <header class="topbar">
+          <div class="topbar__title">
+            <h1 id="pageTitle">Dashboard</h1>
+            <p id="pageSubtitle"></p>
+          </div>
+          <div class="topbar__actions" id="pageActions"></div>
+        </header>
+        <main class="view" id="view" tabindex="-1"></main>
+      </div>
+    </div>
+
+    <div class="modal" id="modal" hidden>
+      <div class="modal__backdrop" data-close="1"></div>
+      <form class="modal__card" id="modalForm" autocomplete="off">
+        <h2 id="modalTitle">Dialog</h2>
+        <div id="modalBody"></div>
+        <p class="modal__error" id="modalError" hidden></p>
+        <div class="modal__actions">
+          <button class="btn btn--ghost" type="button" data-close="1">Cancel</button>
+          <button class="btn btn--primary" type="submit" id="modalSubmit">Save</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="toasts" id="toasts" aria-live="polite"></div>
+
+    <script src="assets/js/calc.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/store.js"></script>
+    <script src="assets/js/seed.js"></script>
+    <script src="assets/js/print.js"></script>
+    <script src="assets/js/views/dashboard.js"></script>
+    <script src="assets/js/views/clients.js"></script>
+    <script src="assets/js/views/quotes.js"></script>
+    <script src="assets/js/views/projects.js"></script>
+    <script src="assets/js/views/reports.js"></script>
+    <script src="assets/js/views/settings.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
